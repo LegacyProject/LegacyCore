@@ -1,0 +1,2 @@
+-- fix double up
+DELETE FROM `gameobject` WHERE `GUID` BETWEEN 660000 AND 660748;
